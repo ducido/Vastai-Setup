@@ -1,7 +1,7 @@
 # Vastai-Setup
 
 # Set up ssh key to secure your connection to vastai server
-##@  Step 1: Check for Existing SSH Keys
+##  Step 1: Check for Existing SSH Keys
 
 ```bash
 ls -al ~/.ssh
@@ -101,7 +101,7 @@ cd ../../..
 
 ```
 
-##Add-on: Train GroundingDino on COCO datasets
+## Add-on: Train GroundingDino on COCO datasets
 ### Convert data to ODVG format
 ```bash
 cd Open-GroundingDino
