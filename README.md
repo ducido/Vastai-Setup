@@ -130,8 +130,11 @@ Create config/mycoco_odvg.json with following content
 }
 ```
 
-
 ### Train
 ```
 bash train_dist.sh 1 config/cfg_coco.py config/mycoco_odvg.json ./logs
 ```
+
+
+
+#### That's it!! Hope you guys doing well.
