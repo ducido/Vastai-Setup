@@ -1,5 +1,7 @@
 # Vastai-Setup
 
+Detail instruction (in Vietnamese): https://youtu.be/tSc9Jdt9bXs?si=RaURfCJpDX9oFnNJ 
+
 # Set up ssh key to secure your connection to vastai server
 ##  Step 1: Check for Existing SSH Keys
 
