@@ -102,10 +102,11 @@ cd ../../..
 
 ## Add-on: Train GroundingDino on COCO datasets
 ### Download neccessary checkpoints
+```
 cd Open-GroundingDino
 wget https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth
 git clone https://huggingface.co/google-bert/bert-base-uncased
-
+```
 
 ### Convert data to ODVG format
 ```bash
