@@ -76,7 +76,6 @@ git config --global user.email "nduc90313@gmail.com"
 git config --global user.name "ducido"
 
 # Download COCO dataset
-# Download image zip files
 wget http://images.cocodataset.org/zips/train2017.zip
 wget http://images.cocodataset.org/zips/val2017.zip
 wget http://images.cocodataset.org/annotations/annotations_trainval2017.zip
@@ -102,6 +101,12 @@ cd ../../..
 ```
 
 ## Add-on: Train GroundingDino on COCO datasets
+### Download neccessary checkpoints
+cd Open-GroundingDino
+wget https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth
+git clone https://huggingface.co/google-bert/bert-base-uncased
+
+
 ### Convert data to ODVG format
 ```bash
 cd Open-GroundingDino
