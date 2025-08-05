@@ -128,7 +128,7 @@ Create config/mycoco_odvg.json with following content
   "val": [
     {
       "root": "/workspace/coco_2017/val2017",
-      "anno": "/workspace/coco_2017/instances_val2017.json",
+      "anno": "/workspace/coco_2017/annotations/instances_val2017.json",
       "label_map": null,
       "dataset_mode": "coco"
     }
