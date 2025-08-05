@@ -121,7 +121,7 @@ Create config/mycoco_odvg.json with following content
     {
       "root": "/workspace/coco_2017/train2017/",
       "anno": "/workspace/coco_2017/annotations/coco2017_train_odvg.jsonl",
-      "label_map": "./coco2017_label_map.json",
+      "label_map": "./config/coco2017_label_map.json",
       "dataset_mode": "odvg"
     }
   ],
